@@ -3,75 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudha Muppala - AI/ML Portfolio</title>
+    <title>Sudha Muppala - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Sudha Muppala</h1>
-        <p>AI/ML Engineer | Cybersecurity Analyst | Data Scientist</p>
-        <button id="themeToggle">Dark Mode</button>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Masters in Artificial Intelligence from Monash University, with experience in Cybersecurity and AI/ML projects.</p>
-    </section>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <img src="your-profile.jfif" alt="Suddha Muppala">
+            <h2>Sudha Muppala</h2>
+            <p class="title">AI/ML Engineer | Cybersecurity Analyst</p>
+            <ul class="contact-info">
+                <li><i class="fas fa-envelope"></i> muppalasudha@gmail.com</li>
+                <li><i class="fas fa-phone"></i> +61 0426476275</li>
+                <li><i class="fas fa-map-marker-alt"></i>Oakleigh south, Australia</li>
+            </ul>
+        </aside>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>MRI Tumor Detection Using CNN</h3>
-            <p>Developed a classification model with CNNs to detect brain tumors from MRI scans.</p>
-            <a href="Brain_tumor.ipynb" target="_blank">View Notebook</a>
+        <!-- Main Content -->
+        <main class="content">
+            <nav class="nav">
+                <a href="#about" class="active">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- About Section -->
+            <section id="about">
+                <h1>About Me</h1>
+                <p>Masters in Artificial Intelligence from Monash University with expertise in Cybersecurity, AI/ML, and Data Science.</p>
+                <h2>What I Do</h2>
+                <div class="services">
+                    <div class="service-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>AI & Machine Learning</h3>
+                        <p>Developing ML models for automation and analytics.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>Ensuring secure network and data infrastructure.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio">
+                <h1>Projects</h1>
+                <div class="project-grid">
+                    <div class="project-card" onclick="openModal('Brain_tumor.ipynb')">
+                        <h3>MRI Tumor Detection</h3>
+                        <p>Classifying brain tumors using CNNs.</p>
+                    </div>
+                    <div class="project-card" onclick="openModal('Machine_Translation_model_NLP.ipynb')">
+                        <h3>Machine Translation</h3>
+                        <p>Using attention models for NLP.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h1>Contact Me</h1>
+                <p>Email: <a href="mailto:your.email@example.com">muppalasudha@gmail.com</a></p>
+                <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/SudhaM01/SudhaM01.github.io</a></p>
+            </section>
+        </main>
+    </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <iframe id="modalFrame" src="" width="100%" height="500px"></iframe>
         </div>
-
-        <div class="project">
-            <h3>Machine Translation Model (NLP)</h3>
-            <p>Built a sequence-to-sequence model using attention mechanisms for language translation.</p>
-            <a href="Machine_Translation_model_NLP.ipynb" target="_blank">View Notebook</a>
-        </div>
-
-        <div class="project">
-            <h3>Document Clustering and Organization</h3>
-            <p>Implemented unsupervised learning algorithms for document clustering.</p>
-            <a href="Document_clustering.ipynb" target="_blank">View Notebook</a>
-        </div>
-
-        <div class="project">
-            <h3>Generative Recipe Generation with Attention Model</h3>
-            <p>Built a model using GloVe embeddings to generate recipes from ingredients.</p>
-            <a href="#" target="_blank">View Project</a>
-        </div>
-    </section>
-
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <div class="job">
-            <h3>Cybersecurity Analyst - WIPRO</h3>
-            <p>Developed automation scripts to analyze large user access datasets, identifying patterns and anomalies.</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming: Python, R, C++, JavaScript</li>
-            <li>AI/ML: TensorFlow, PyTorch, Scikit-learn</li>
-            <li>Cloud: AWS, Docker, Kubernetes</li>
-            <li>Security: Cybersecurity Analysis, Incident Response</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your.email@example.com">muppalasudha@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/SudhaM01/SudhaM01.github.io</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Sudha Muppala. All rights reserved.</p>
-    </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
