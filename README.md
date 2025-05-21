@@ -1,4 +1,4 @@
-# 🧠 AI & Machine Learning Portfolio – [Your Full Name]
+# 🧠 AI & Machine Learning Portfolio – Sudha Muppala
 
 Welcome to my GitHub portfolio! I am passionate about machine learning, deep learning, computer vision, and NLP. This repository serves as a curated collection of projects that demonstrate my ability to build intelligent, real-world applications across domains such as healthcare, cybersecurity, and social impact.
 
@@ -14,10 +14,10 @@ I am a Master of Artificial Intelligence graduate, with focused on cutting-edge 
 
 | Project | Description | Technologies |
 |--------|-------------|--------------|
-| [HerVoyage](./HerVoyage) | AI-powered tool to support migrant women with job readiness | NLP, Classification, Python, Flask |
+| [Clinical Note generation](./clinical) | AI-powered tool to support doctors transcribe patient appointments | NLP, LLM, Python, Llamma |
 | [Recipe Generator](./RecipeGenerator) | NLP model to generate recipes using attention-based seq2seq | PyTorch, GloVe, Seq2Seq |
 | [MRI Tumor Classification](./MRI-Tumor-CNN) | CNN-based tool for tumor detection from MRI scans | TensorFlow, CNNs, Data Augmentation |
-| [Document Clustering](./DocCluster) | Search-optimized document classification using clustering algorithms | K-Means, DBSCAN, NLP |
+| [Textual analysis of breast cancer](./Textual%20analysis%20of%20breast%20cancer/breast_cancer_detection.Rmd) R programming based textual analysis for early detection of breast cancer| R programming, Data Analysis|
 | [Worker Safety Detection](./WorkerSafetyDetection) | Real-time safety gear detection for construction workers | YOLO, Faster R-CNN, OpenCV |
 
 > 📁 Each project folder contains a detailed README with features, technical stack, setup instructions, and results.
@@ -39,8 +39,6 @@ I am a Master of Artificial Intelligence graduate, with focused on cutting-edge 
 ## 📫 Connect With Me
 
 - **LinkedIn:** [https://www.linkedin.com/in/sudha-muppala-323922174/]
-- **Email:** muppalasudha@gmail.com
-- **Portfolio Website:** [yourwebsite.com](https://yourwebsite.com) *(if applicable)*
 
 ---
 
