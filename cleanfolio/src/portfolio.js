@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://SudhaM01.github.io/cleanfolio-main',
-  title: 'JS.',
+  title: 'Portfolio',
 }
 
 const about = {
@@ -13,7 +13,7 @@ const about = {
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/sudha-muppala-323922174/',
-    github: 'https://github.com',
+    github: 'https://github.com/SudhaM01/SudhaM01.github.io',
   },
 }
 
@@ -21,29 +21,29 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'MRI Tumor Classification with CNN',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Built and optimized CNNs to detect tumors from MRI scans, achieving high precision through data augmentation and layer tuning ',
+    stack: ['TensorFlow', 'NumPy', 'CNN'],
+    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Brain_tumor.ipynb'
+  },
+    {
+    name: 'Object Detection for Construction Worker Safety',
+    description:
+      'Developed an Object Detection model to recognize safety equipment (helmets, safety vests, masks) worn by workers in construction sites using YOLO (You Only Look Once) and Faster R-CNN.',
+    stack: ['Deep Learning', 'YOLO', 'R-CNN'],
+    sourceCode: 'https://github.com'
+
   },
   {
-    name: 'Project 2',
+    name: 'Recipe Generator using Attention Mechanism',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Implemented a seq2seq architecture with attention to create human-readable recipes from ingredient lists ',
+    stack: ['PyTorch', 'NLP', 'Seq2seq architecture'],
+    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Machine_Translation_model_NLP.ipynb'
+
   },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+
 ]
 
 const skills = [
