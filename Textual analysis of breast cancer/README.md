@@ -1,47 +1,53 @@
-# 🧠 AI & Machine Learning Portfolio – [Your Full Name]
+# 🩺 Breast Cancer Detection Using Random Forest & PCA in R
 
-Welcome to my GitHub portfolio! I am passionate about machine learning, deep learning, computer vision, and NLP. This repository serves as a curated collection of projects that demonstrate my ability to build intelligent, real-world applications across domains such as healthcare, cybersecurity, and social impact.
-
----
-
-## 👤 About Me
-
-I am a Master of Artificial Intelligence graduate, with focused on cutting-edge areas such as generative models, discrete optimisation, ethical AI, and software engineering. My passion lies in developing solutions that are not only technically robust but also socially meaningful — particularly in domains like healthcare and education.
+This project involves a comprehensive analysis of breast cancer data using R. It includes exploratory data analysis (EDA), feature engineering, dimensionality reduction, and classification modeling using a Random Forest algorithm. The goal is to accurately classify malignant and benign tumors based on various cell nuclei measurements.
 
 ---
 
-## 🗂️ Portfolio Overview
+## 🎯 Objective
 
-| Project | Description | Technologies |
-|--------|-------------|--------------|
-| [HerVoyage](./HerVoyage) | AI-powered tool to support migrant women with job readiness | NLP, Classification, Python, Flask |
-| [Recipe Generator](./RecipeGenerator) | NLP model to generate recipes using attention-based seq2seq | PyTorch, GloVe, Seq2Seq |
-| [MRI Tumor Classification](./MRI-Tumor-CNN) | CNN-based tool for tumor detection from MRI scans | TensorFlow, CNNs, Data Augmentation |
-| [Document Clustering](./DocCluster) | Search-optimized document classification using clustering algorithms | K-Means, DBSCAN, NLP |
-| [Worker Safety Detection](./WorkerSafetyDetection) | Real-time safety gear detection for construction workers | YOLO, Faster R-CNN, OpenCV |
-
-> 📁 Each project folder contains a detailed README with features, technical stack, setup instructions, and results.
+To build a predictive model that can accurately distinguish between malignant (M) and benign (B) breast cancer cases using features extracted from digitized images of fine needle aspirates (FNA) of breast masses.
 
 ---
 
+## 📊 Dataset Overview
 
-## 🧠 Technical Skillset
-
-**Languages:** Python, R, SQL, HTML/CSS  
-**AI/ML & LLMs:** PyTorch, TensorFlow, GPT-4, LangChain, CNNs, RAG, Prompt Engineering  
-**Tools & Frameworks:** Flask, Docker, Git, scikit-learn, MiniZinc  
-**DevOps & Deployment:** REST APIs, CI/CD (basic), Kubernetes, Vercel, DigitalOcean  
-**Cloud:** AWS (proficient), GCP (learning)  
-**Databases:** SQL, Pinecone (familiar)  
-**Other:** Agile Development, Object-Oriented Design, System Design Principles
-
-
-## 📫 Connect With Me
-
-- **LinkedIn:** [https://www.linkedin.com/in/sudha-muppala-323922174/]
-- **Email:** muppalasudha@gmail.com
-- **Portfolio Website:** [yourwebsite.com](https://yourwebsite.com) *(if applicable)*
+- **Source:** `Cancer_Data.csv`
+- **Features:** 30 numeric features (e.g., radius_mean, texture_mean, perimeter_mean)
+- **Target:** `diagnosis` (Malignant `M` or Benign `B`)
+- **Rows:** 569 observations
 
 ---
 
-Thanks for visiting! I’m actively seeking opportunities in machine learning, data science, and AI development — feel free to explore my projects or get in touch.
+## 🧪 Analysis & Workflow
+
+### 1. 🔍 Exploratory Data Analysis (EDA)
+- Visual summaries using `summary()`, `ggplot2`, and `GGally::ggpairs`
+- Feature relationships and clustering based on tumor types
+- Missing data visualizations using `naniar`
+
+### 2. 🧹 Data Preprocessing
+- Conversion of `diagnosis` to a factor
+- Removal of non-informative ID column
+- Calculation of feature correlations
+
+### 3. 🧠 Model Training
+- Data split: 70% training / 30% testing using `createDataPartition`
+- Random Forest classifier trained with `caret::train` using 5-fold cross-validation
+- Evaluation via confusion matrix and classification metrics (Accuracy, Sensitivity, Specificity)
+
+### 4. 🧬 Dimensionality Reduction
+- Principal Component Analysis (PCA) to understand variance and visual class separation
+- Visualization of principal components colored by diagnosis
+
+---
+
+## 📦 Libraries Used
+
+```r
+caret
+tidyverse
+ggplot2
+GGally
+naniar
+ranger
