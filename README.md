@@ -14,7 +14,7 @@ I am a Master of Artificial Intelligence graduate, with focused on cutting-edge 
 
 | Project | Description | Technologies |
 |--------|-------------|--------------|
-| [Clinical Note generation](./clinical) | AI-powered tool to support doctors transcribe patient appointments | NLP, LLM, Python, Llamma |
+| [Clinical Note generation](./clinical%20note%20generation%20model/clinicalnotes_model) | AI-powered tool to support doctors transcribe patient appointments | NLP, LLM, Python, Llamma |
 | [Recipe Generator](./RecipeGenerator) | NLP model to generate recipes using attention-based seq2seq | PyTorch, GloVe, Seq2Seq |
 | [MRI Tumor Classification](./MRI-Tumor-CNN) | CNN-based tool for tumor detection from MRI scans | TensorFlow, CNNs, Data Augmentation |
 | [Textual analysis of breast cancer](./Textual%20analysis%20of%20breast%20cancer/breast_cancer_detection.Rmd) R programming based textual analysis for early detection of breast cancer| R programming, Data Analysis|
