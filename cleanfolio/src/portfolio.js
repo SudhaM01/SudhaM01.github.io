@@ -10,7 +10,7 @@ const about = {
   role: 'AI Engineer | Cybersecurity Analyst',
   description:
     ' Master’s in Artificial Intelligence from Monash University with expertise in Machine Learning, Reinforcement Learning, and NLP. Former Cybersecurity Analyst at Wipro. Passionate about using AI to drive innovative solutions.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/11a8dhCfacMIGu4oqn3auicFeTFVvuLfF/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/sudha-muppala-323922174/',
     github: 'https://github.com/SudhaM01/SudhaM01.github.io',
