@@ -25,14 +25,14 @@ const projects = [
     description:
       'Built and optimized CNNs to detect tumors from MRI scans, achieving high precision through data augmentation and layer tuning ',
     stack: ['TensorFlow', 'NumPy', 'CNN'],
-    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Brain_tumor.ipynb'
+    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/MRI%20Tumor%20Classification%20with%20CNN/Brain_tumor.ipynb'
   },
     {
     name: 'Object Detection for Construction Worker Safety',
     description:
       'Developed an Object Detection model to recognize safety equipment (helmets, safety vests, masks) worn by workers in construction sites using YOLO (You Only Look Once) and Faster R-CNN.',
     stack: ['Deep Learning', 'YOLO', 'R-CNN'],
-    sourceCode: 'https://github.com'
+    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Object%20Detection%20for%20Construction%20Worker%20Safety/object_detection_model.py'
 
   },
   {
@@ -40,7 +40,15 @@ const projects = [
     description:
       'Implemented a seq2seq architecture with attention to create human-readable recipes from ingredient lists ',
     stack: ['PyTorch', 'NLP', 'Seq2seq architecture'],
-    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Machine_Translation_model_NLP.ipynb'
+    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Recipe%20generation%20model/recipe_generation_LLM_model.py'
+
+  },
+  {
+    name: 'Textual Analysis of breast cancer',
+    description:
+      ' A comprehensive analysis of breast cancer data using R to accurately classify malignant and benign tumors based on various cell nuclei measurements.',
+    stack: ['R programming', 'Data Analysis', 'EDA', 'Random Forest algorithm'],
+    sourceCode: 'https://github.com/SudhaM01/SudhaM01.github.io/blob/main/Recipe%20generation%20model/recipe_generation_LLM_model.py'
 
   },
 
