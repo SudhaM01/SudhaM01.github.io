@@ -14,11 +14,11 @@ I am a Master of Artificial Intelligence graduate, with focused on cutting-edge 
 
 | Project | Description | Technologies |
 |--------|-------------|--------------|
-| [Clinical Note generation](./clinical%20note%20generation%20model/clinicalnotes_model) | AI-powered tool to support doctors transcribe patient appointments | NLP, LLM, Python, Llamma |
-| [Recipe Generator](./RecipeGenerator) | NLP model to generate recipes using attention-based seq2seq | PyTorch, GloVe, Seq2Seq |
-| [MRI Tumor Classification](./MRI-Tumor-CNN) | CNN-based tool for tumor detection from MRI scans | TensorFlow, CNNs, Data Augmentation |
-| [Textual analysis of breast cancer](./Textual%20analysis%20of%20breast%20cancer/breast_cancer_detection.Rmd) R programming based textual analysis for early detection of breast cancer| R programming, Data Analysis|
-| [Worker Safety Detection](./WorkerSafetyDetection) | Real-time safety gear detection for construction workers | YOLO, Faster R-CNN, OpenCV |
+| [Clinical Note generation](./clinical%20note%20generation%20model/clinical_notes_model.py) | AI-powered tool to support doctors transcribe patient appointments | NLP, LLM, Python, Llamma |
+| [Recipe Generator](./Recipe%20Generation%20model/recipe_generation_LLM_model.py) | NLP model to generate recipes using attention-based seq2seq | PyTorch, GloVe, Seq2Seq |
+| [MRI Tumor Classification](./MRI%20Tumor%20Classification%20with%20CNN/Brain_tumor.ipynb) | CNN-based tool for tumor detection from MRI scans | TensorFlow, CNNs, Data Augmentation |
+| [Textual analysis of breast cancer](./Textual%20analysis%20of%20breast%20cancer/breast_cancer_detection.Rmd)| R programming based textual analysis for early detection of breast cancer| R programming, Data Analysis|
+| [Worker Safety Detection](./Object%20Detection%20for%20Construction%20Worker%20Saftey/object_detection_model.py) | Real-time safety gear detection for construction workers | YOLO, Faster R-CNN, OpenCV |
 
 > 📁 Each project folder contains a detailed README with features, technical stack, setup instructions, and results.
 
